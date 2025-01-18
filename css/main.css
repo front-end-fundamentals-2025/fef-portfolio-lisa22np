@@ -1,6 +1,9 @@
+/* global */
 * {
   font-family: "DM Sans", serif;
 }
+
+/* header */
 ul {
   list-style: none;
   padding-left: 0px;
@@ -10,8 +13,8 @@ a {
 }
 .header-img {
   width: 60%;
+  margin-top: 20px;
 }
-
 #logo {
   font-weight: bold;
   font-size: large;
@@ -20,7 +23,14 @@ a {
   padding: 3px;
 }
 
+/* footer */
 footer {
   margin-top: 5rem;
   border-top: 1px solid black;
+}
+
+/* contact page */
+.contact-form {
+  margin-top: 0;
+  margin-bottom: 10px;
 }
