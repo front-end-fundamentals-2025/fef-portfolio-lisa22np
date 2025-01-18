@@ -9,4 +9,18 @@ a {
   color: black;
 }
 .header-img {
+  width: 60%;
+}
+
+#logo {
+  font-weight: bold;
+  font-size: large;
+  border: 3px solid black;
+  display: inline;
+  padding: 3px;
+}
+
+footer {
+  margin-top: 5rem;
+  border-top: 1px solid black;
 }
