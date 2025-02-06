@@ -8,6 +8,12 @@ referenced from https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
 
 /* header */
 
+@media screen and (max-width: 520px) {
+  ul {
+    flex-direction: column;
+  }
+}
+
 #logo {
   text-transform: uppercase;
   font-weight: bold;
@@ -63,9 +69,17 @@ figure {
   font-size: 1.5vw;
   font-weight: bold;
 }
+
 .portfolio-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (min-width: 520px) {
+  .portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* detail page*/
