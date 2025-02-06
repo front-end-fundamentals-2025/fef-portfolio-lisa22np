@@ -22,6 +22,22 @@ referenced from https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
   display: inline;
   padding: 0.2rem;
 }
+
+#logo:hover {
+  animation-name: animation;
+  animation-duration: 1s;
+}
+
+@keyframes animation {
+  50% {
+    font-size: 3.5vw;
+  }
+  70% {
+    color: #b54a6c;
+    border: 0.2rem solid #b54a6c;
+  }
+}
+
 ul {
   display: flex;
   list-style: none;
