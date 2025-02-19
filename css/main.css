@@ -28,13 +28,20 @@ referenced from https://www.w3schools.com/howto/howto_css_responsive_text.asp*/
   animation-duration: 1s;
 }
 
+.project-link:hover {
+  animation-name: animation-color;
+  animation-duration: 1s;
+}
+
 @keyframes animation {
   50% {
     font-size: 3.5vw;
   }
-  70% {
-    color: #b54a6c;
-    border: 0.2rem solid #b54a6c;
+}
+
+@keyframes animation-color {
+  50% {
+    color: #db5c7e;
   }
 }
 
