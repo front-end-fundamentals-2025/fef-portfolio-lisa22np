@@ -10,3 +10,4 @@ falaFigure.addEventListener("mouseenter", function (event) {
 falaFigure.addEventListener("mouseleave", function (event) {
   falaImg.src = "img/portfolio-fala.jpg";
 });
+
